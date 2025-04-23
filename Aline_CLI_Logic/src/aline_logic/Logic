@@ -1,0 +1,35 @@
+-> Work-out sessions: 
+	Work-out session will be an object 
+	This work-out session object will have exercise objects 
+
+-> Exercise objects: 
+	Properties: name
+	Each exercise object will have a set object 
+	
+-> Set objects: 
+	properties: serial, weight,  repetitions 
+
+
+Work-out session 
+	->  Exercise 
+		-> Set 
+
+		
+Example: 
+			Push-Day work-out session 
+				-> Incline dumbbell press
+					-> Set 1 (50lbs, 5)
+					-> Set 2 (50lbs, 8)
+				-> Pec fly
+					-> Set 1 (130lbs, 8)
+					-> Set 2 (130lbs, 10)
+					
+			Pull-day work-out session
+				-> Lat-pull down
+					-> Set 1 (115lbs, 5)
+					-> Set 2 (115lbs, 8) 
+					
+		
+How the hierarchy will work: Work-out session object will have a list of exercise objects and exercise object 
+	will have a list of set objects
+	
